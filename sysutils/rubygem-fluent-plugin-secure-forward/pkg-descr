@@ -1,0 +1,4 @@
+SecureForward plugin allows you to forward fluentd messages over SSL with 
+authentication. 
+
+WWW: https://github.com/tagomoris/fluent-plugin-secure-forward
