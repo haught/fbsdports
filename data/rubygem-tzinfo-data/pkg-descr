@@ -1,0 +1,5 @@
+TZInfo::Data is the public domain IANA Time Zone 
+Database packaged as a set of Ruby modules for 
+use with TZInfo.
+
+WWW: https://github.com/tzinfo/tzinfo-data
