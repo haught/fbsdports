@@ -20,15 +20,15 @@ OPTIONS_DEFINE=	IGBINARY SASL
 IGBINARY_DESC=	Binary serializer support
 
 CONFIGURE_ARGS=	--disable-memcached-sasl --with-libmemcached-dir=${LOCALBASE}
-USE_PHP=	json session
+USE_PHP=	json:build session:build
 USE_PHPEXT=	yes
 USE_PHPIZE=	yes
 USE_PHP_BUILD=	yes
-USES=		pkgconfig tar:tgz
+USES=		php:ext pkgconfig tar:tgz
 USE_GITHUB=	yes
 GH_ACCOUNT=	php-memcached-dev
 GH_PROJECT=	php-memcached
-GH_TAGNAME=	e573a6e8fc815f12153d2afd561fc84f74811e2f
+GH_TAGNAME=	a8ed24065cb1f2daf84308bf3ddf7a1d528d3ef5
 
 IGBINARY_CONFIGURE_ENABLE=	memcached-igbinary
 IGBINARY_USE=		PHP=igbinary
