@@ -1,0 +1,4 @@
+Proxifier adds support for HTTP or SOCKS proxies and lets you force TCPSocket 
+to use proxies.
+
+WWW: https://github.com/samuelkadolph/ruby-proxifier
