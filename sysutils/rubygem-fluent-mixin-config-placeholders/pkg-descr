@@ -1,0 +1,5 @@
+Fluent::Mixin::ConfigPlaceHolders provide some placeholders to fluentd plugins 
+that includes this mix-in. Placeholders below are expanded in 'super' of 
+including plugin's #configure method.
+
+WWW: https://github.com/tagomoris/fluent-mixin-config-placeholders
